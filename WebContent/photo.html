@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Kim Junho</title>
+<link rel="stylesheet" href="./css/common.css" />
+<style>
+	.section{
+			box-sizing: border-box;
+			padding: 40px 100px 40px 100px;
+		}
+	.photo-block{
+		overflow: auto;
+	}
+	.photo-block img,
+	.photo-block figcaption
+	{
+		float: left;
+	}
+	.photo-block img{
+		border: 5px solid darkgrey;
+		margin: 0 30px 0 0;
+		width: 12vw;
+		height: 26vh;
+	}
+	
+</style>
+</head>
+<body>
+	<header class="header">
+		<nav class="main-navbar">
+			<ul class="main-navitem">
+				<li><a href="http://localhost:8080/aboutme/index.html">홈</a></li>
+        <li><a href="http://localhost:8080/aboutme/aboutme.html">자기소개</a></li>
+        <li><a href="http://localhost:8080/aboutme/photo.html">내사진</a></li>
+        <li><a href="http://localhost:8080/aboutme/today">몇시에요</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="section">
+		<figure class="photo-block">
+			<img src="./image/gray.jpg", alt="그레이">
+			<figcaption>
+				<p>2021.01.16</p>
+        제가 회색일때 찍은 사진입니다.
+			</figcaption>
+		</figure>
+		<hr>
+		<figure class="photo-block">
+			<img src="./image/blue.jpg", alt="블루">
+			<figcaption>
+				<p>2021.01.17</p>
+       	제가 파란색일때 찍은 사진입니다.
+			</figcaption>
+		</figure>
+		
+	</section>
+	<footer class="footer">
+		<nav class="footer-navbar">
+			<p>Copyright @codesquad.kr</p>
+			<a href="https://github.com/hkjaslkdjas">https://github.com/junho</a>
+		</nav>
+	</footer>
+</body>
+</html>
